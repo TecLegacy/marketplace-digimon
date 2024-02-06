@@ -1,12 +1,12 @@
 import { cn } from '@/lib/utils';
 import { FC } from 'react';
 
-interface MaxWrapperProps {
+interface MaxWidthWrapper {
   children: React.ReactNode;
   className?: string;
 }
 
-const MaxWrapper: FC<MaxWrapperProps> = ({ children, className }) => {
+const MaxWidthWrapper: FC<MaxWidthWrapper> = ({ children, className }) => {
   return (
     <div
       className={cn(
@@ -19,4 +19,4 @@ const MaxWrapper: FC<MaxWrapperProps> = ({ children, className }) => {
   );
 };
 
-export default MaxWrapper;
+export default MaxWidthWrapper;
